@@ -15,7 +15,7 @@ function Register() {
 
     async function water (email, password, username) {
     try {
-      const response = await fetch("http://localhost:5000/register", {
+      const response = await fetch("proiect-tic-backend.vercel.app/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
