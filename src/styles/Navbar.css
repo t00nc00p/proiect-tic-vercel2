@@ -1,0 +1,135 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: none;
+    font: bold;
+    overflow: hidden;
+}
+
+
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar li{
+    list-style-type:none;
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+.options{
+    display:flex;
+    justify-content: start;
+    margin-left: 0px;
+    width: 50%;
+}
+
+.options ul{
+    padding-left: 10px;
+    margin: 0px;
+    
+    
+}
+
+.options li{
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+.options a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(66, 66, 66);
+}
+
+.options li:hover{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.account{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 50%;
+}
+
+.account ul{
+    padding-left:0px;
+    margin: 0px;
+    
+}
+
+.account li{
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+.account li:hover{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+li *{
+    text-decoration: none;
+}
+
+.account a{
+    color: rgb(43, 43, 43);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logout{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 50%;
+}
+
+.logout li{
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.logout li:hover{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.logout li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(66, 66, 66);
+}
+
+
+
+
+
+
+
+

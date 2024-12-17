@@ -1,0 +1,110 @@
+.BodyCard{
+    width: 100vw;
+    height: 100vh;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/background_login.png"); 
+}
+
+.register-title{
+    color: rgb(255, 234, 209);
+}
+
+.RegisterCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:22%;
+    height:30%; 
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.email-register{
+    text-align: center;
+    background-color: rgb(255, 234, 209);
+    width: 80%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin-right: none;
+}
+
+.email-register:focus{
+    border: solid;
+}
+
+.username-register{
+    text-align: center;
+    background-color: rgb(255, 234, 209);
+    width: 80%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin-right: none;
+    
+}
+
+.username-register:focus{
+    border: solid;
+}
+
+.password-register{
+    text-align: center;
+    background-color: rgb(255, 234, 209);
+    width: 80%;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin-right: none;
+}
+
+.password-register:focus{
+    border: solid;
+}
+
+.submitcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+.submitcard button{
+    display: flex;
+    border:none;
+    margin-top: 10px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 234, 209);
+
+}
+
+.registerbutton{
+    border-radius: 10px;
+    margin-right: 0px;
+}
+
+.registerbutton{
+    border-radius:100px;
+}
+
+.registerbutton:active{
+    background-color: burlywood;
+}
